@@ -38,3 +38,27 @@ A partir da aula de lógica de programação, fiz um algorítimo para me auxilia
 
 ## Método 5Qs para montar um algorítimo:
 Analise criticamente problema e descubra: (Tente explicar este problema para você mesmo em voz alta e peça mais informações, investigue mais até você compreender completamente o problema)
+
+1. Quais são os dados de entrada necessários?
+Descrição da tarefa a ser realizada
+
+2. O que devo fazer com estes dados?
+Adicioná-la a uma lista de tarefas
+
+3. Quais são as restrições do problema?
+Não podem ser inseridos apenas número, caracteres especiais ou emojis
+
+4. Qual é o resultado esperado?
+Espera-se que as tarefas sejam organizadas e exibidas conforme a lista de tarefas vá sendo formada
+
+5. Qual é a sequência de passos a ser feita para chegar ao resultado esperado?
+    1. Usuário digita o nome da tarefa.
+    2. Ao clicar no botão "Adicionar tarefa":
+        a. Verifica se o campo está vazio ou contém só números/caracteres especiais.
+        - se estiver errado, mostra aviso e para aqui.
+        - se estiver certo, continua.
+    3. Cria uma nova tarefa com o nome digitado.
+    4. Adiciona essa tarefa na lista visível.
+    5. Se o usuário clicar na checkbox, a tarefa aparece riscada.
+    6. Se clicar na lixeira, a tarefa é removida da lista.
+    7. Exibe uma mensagem confirmando que a tarefa foi deletada.    
