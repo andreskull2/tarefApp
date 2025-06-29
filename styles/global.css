@@ -32,6 +32,41 @@
     --link: 0.875rem;
 }
 
+a {
+    text-decoration: none;
+    color: var(--color-brand);
+    font-family: var(--ff-base);
+    font-size: var(--link);
+    line-height: 1rem;
+    font-weight: medium;
+}
+
+a:hover {
+    color: var(--color-hover);
+}
+
 body {
     background-color: var(--background-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+    border: 1px solid red;
+    width: 100%;
+    max-width: 23.4375rem;
+    padding: 1.5625rem 0;
+}
+
+main {
+    width: 100%;
+    max-width: 23.4375rem;
+    border: 1px solid green;
+    padding: 1.5rem;
+    /* box-sizing: border-box; */
 }
