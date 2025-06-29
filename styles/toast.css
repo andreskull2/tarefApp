@@ -1,0 +1,43 @@
+.toast-removido {
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--color-danger);
+    color: var(--always-white);
+    border-radius: 1rem;
+    padding: 0.75rem 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    font-family: var(--ff-base);
+    font-size: var(--label);
+    font-weight: 500;
+    /* opacity: 1; */
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 9999;
+}
+
+.toast-removido.mostrar {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.toast-removido img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.toast-removido .btn-fechar-toast {
+    background: none;
+    border: none;
+    color: var(--always-white);
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 0;
+    line-height: 1;
+}
