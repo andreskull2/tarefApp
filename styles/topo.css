@@ -1,0 +1,24 @@
+.topo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2.75rem;
+}
+
+.topo a img {
+    width: 0.75rem;
+}
+
+.topo a {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.topo h1 {
+    font-family: var(--ff-base);
+    font-size: var(--title);
+    line-height: 2rem;
+    font-weight: bold;
+    color: var(--content-primary);
+}

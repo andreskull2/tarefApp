@@ -1,0 +1,68 @@
+.lista-itens li {  
+    padding: 1rem;
+    background-color: var(--background-secondary);
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.lista-itens li .item-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.lista-itens li .item-container .checkbox-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+/* Esconde o checkbox nativo */
+.checkbox-wrapper input[type="checkbox"] {
+    display: none;
+}
+
+/* Extiliza o label como botão do checkbox com ícone default */
+.checkbox-wrapper label {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url("../assets/icons/state-default.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: background-image 0.2s ease-in-out;
+}
+
+/* Hover */
+.checkbox-wrapper label:hover {
+    background-image: url("../assets/icons/state-hover.svg");
+}
+
+/* Checked */
+.checkbox-wrapper input[type="checkbox"]:checked + label {
+    background-image: url(../assets/icons/state=selected.svg);
+}
+
+/* Texto do item */
+.item-label {
+    font-family: var(--ff-base);
+    font-size: var(--paragraph);
+    font-weight: 500;
+    color: var(--content-secondary);
+}
+
+/* Quando checkbox estiver marcado */
+.checkbox-wrapper input[type="checkbox"]:checked + label + .item-label {
+    text-decoration: line-through;
+    color: var(--content-tertiary);
+}
+
+main .lista-itens li .item-container .btn-trash {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 0;
+}
