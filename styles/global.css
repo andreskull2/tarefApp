@@ -22,4 +22,16 @@
 
     --border-primary: #D1D5DB;
     --border-hover: #B9C2D0;
+
+    /* Fonts */
+    --ff-base: 'Inter', sans-serif;
+
+    --title: 1.5rem;
+    --label: 1rem;
+    --paragraph: 1rem;
+    --link: 0.875rem;
+}
+
+h1 {
+    font-family: var(--ff-base);
 }
