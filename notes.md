@@ -36,3 +36,5 @@ Após concluir o desafio, postarei no Linkedin, compartilhando minhas experiênc
 ## Agora começa o JavaScript
 A partir da aula de lógica de programação, fiz um algorítimo para me auxiliar na criaçnao do código.
 
+## Método 5Qs para montar um algorítimo:
+Analise criticamente problema e descubra: (Tente explicar este problema para você mesmo em voz alta e peça mais informações, investigue mais até você compreender completamente o problema)
