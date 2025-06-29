@@ -32,6 +32,6 @@
     --link: 0.875rem;
 }
 
-h1 {
-    font-family: var(--ff-base);
+body {
+    background-color: var(--background-primary);
 }
