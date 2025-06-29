@@ -61,4 +61,15 @@ Espera-se que as tarefas sejam organizadas e exibidas conforme a lista de tarefa
     4. Adiciona essa tarefa na lista visível.
     5. Se o usuário clicar na checkbox, a tarefa aparece riscada.
     6. Se clicar na lixeira, a tarefa é removida da lista.
-    7. Exibe uma mensagem confirmando que a tarefa foi deletada.    
+    7. Exibe uma mensagem confirmando que a tarefa foi deletada.
+
+---
+
+## Aplicação no JavaScript - Resumo das etapas:
+1. Selecionou os elementos do HTML
+2. Montou o submit do form com validação
+3. Criou a função para adicionar itens na lista
+4. Fez o botão de deletar cada item
+5. Criou o sistema de toast para feedback visual
+6. Fez o botão de fechar o toast manualmente
+
