@@ -18,53 +18,48 @@
     </header>
 
     <main>
-        <div>
-            <img src="assets/icons/left-arrow.svg" alt="Seta voltar">
-            <span>Voltar</span>
-
+        <section class="topo">
+            <a href="#">
+                <img src="assets/icons/left-arrow.svg" alt="Seta voltar">
+                <span>Voltar</span>
+            </a>
             <h1>Lista de Tarefas do Dia</h1>
-        </div>
-
+        </section>
+        
         <form action="">
             <input type="text" id="inputItem" placeholder="Adicione uma nova tarefa">
             <button>Adicionar tarefa</button>
         </form>
 
-        <div>
-            <input type="checkbox" name="item" id="item">
-            <span>Estudar JavaScript</span>
-            <img src="assets/icons/trash.svg" alt="">
-        </div>
+        <ul class="lista">
+            <li>
+                <input type="checkbox" id="item1">
+                <label for="item1">Estudar JavaScript</label>
+                <img src="assets/icons/trash.svg" alt="Remover tarefa">
+            </li>
 
-        <div>
-            <input type="checkbox" name="item" id="item">
-            <span>Planejamento de Identidade visual</span>
-            <img src="assets/icons/trash.svg" alt="">
-        </div>
+            <li>
+                <input type="checkbox" id="item2">
+                <label for="item2">Planejamento da Identidade Visual</label>
+                <img src="assets/icons/trash.svg" alt="Remover tarefa">
+            </li>
 
-        <div>
-            <input type="checkbox" name="item" id="item">
-            <span>Tratamento de imagens</span>
-            <img src="assets/icons/trash.svg" alt="">
-        </div>
-
-        <div>
-            <input type="checkbox" name="item" id="item">
-            <span>Aula de inglês</span>
-            <img src="assets/icons/trash.svg" alt="">
-        </div>
-
-        <div>
-            <img src="assets/icons/warning-filled.svg" alt="">
+            <li>
+                <input type="checkbox" id="item3">
+                <label for="item3">Tratamento de imagens</label>
+                <img src="assets/icons/trash.svg" alt="Remover tarefa">
+            </li>
+        </ul>
+        
+        <div class="mensagem mensagem-removido">
+            <img src="assets/icons/warning-filled.svg" alt="Aviso">
             <span>0 tarefa foi removida da lista</span>
-            <img src="assets/icons/delete-small.svg" alt="">
+            <button class="fechar">
+                <img src="assets/icons/delete-small.svg" alt="Fechar mensagem">
+            </button>
         </div>
+        
 
-        <div>
-            <img src="assets/icons/warning-filled.svg" alt="">
-            <span>0 tarefa foi adicionada à lista</span>
-            <img src="assets/icons/delete-small.svg" alt="">
-        </div>
     </main>
 </body>
 </html>
