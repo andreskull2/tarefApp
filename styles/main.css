@@ -1,0 +1,32 @@
+main {
+    width: 100%;
+    max-width: 23.4375rem;
+    border: 1px solid green;
+    padding: 1.5rem;
+    /* box-sizing: border-box; */
+}
+
+main .topo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+main .topo a img {
+    width: 0.75rem;
+}
+
+main .topo a {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+main .topo h1 {
+    font-family: var(--ff-base);
+    font-size: var(--title);
+    line-height: 2rem;
+    font-weight: bold;
+    color: var(--content-primary);
+}
