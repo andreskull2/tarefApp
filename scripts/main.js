@@ -47,8 +47,8 @@ function criarItem(texto, concluido) {
                 <span class="item-label">${texto}</span>
             </div>
 
-            <button class="btn-trash">
-                <img src="assets/icons/trash.svg" alt="Remover item">
+            <button class="btn-trash" aria-label="Remover tarefa">
+                <img src="assets/icons/trash.svg" alt="Remover tarefa">
             </button>
         </div>
     `;
