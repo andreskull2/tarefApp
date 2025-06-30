@@ -19,7 +19,7 @@
 <br>
 
 <p align="center">
-  <img alt="TarefApp preview" src="github/tarefapp-preview.jpg" width="100%">
+  <img alt="TarefApp preview" src="github/shopping-list-preview.jpg" width="100%">
 </p>
 
 ---
